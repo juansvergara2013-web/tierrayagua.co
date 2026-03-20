@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | Tierra & Agua</title>
+    <meta
+      name="description"
+      content="Contacta a Tierra & Agua para evaluar tu proyecto y definir una solucion con biofiltros, humedales artificiales o tratamiento natural del agua."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/global.css" />
+    <script defer src="scripts/main.js"></script>
+  </head>
+  <body data-page="contacto">
+    <div data-site-header></div>
+
+    <main>
+      <section class="page-hero">
+        <div class="shell narrow">
+          <p class="eyebrow">Contacto</p>
+          <h1>Conversemos sobre el contexto tecnico de tu proyecto</h1>
+          <p class="lead">
+            La conversion principal del sitio no es un clic vacio: es abrir una conversacion con informacion
+            suficiente para orientar un diagnostico real.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="shell contact-layout">
+          <article class="contact-card">
+            <p class="card-kicker">Diagnostico tecnico</p>
+            <h2>Cuentanos las condiciones reales de tu proyecto</h2>
+            <form class="contact-form">
+              <label>
+                Nombre
+                <input type="text" name="nombre" placeholder="Tu nombre" required />
+              </label>
+              <label>
+                Correo
+                <input type="email" name="correo" placeholder="nombre@correo.com" required />
+              </label>
+              <label class="form-trap" aria-hidden="true">
+                Sitio web
+                <input type="text" name="empresa_web" tabindex="-1" autocomplete="off" />
+              </label>
+              <label>
+                Tipo de proyecto
+                <select name="tipo" required>
+                  <option>Residencial</option>
+                  <option>Rural</option>
+                  <option>Comercial</option>
+                  <option>Institucional</option>
+                  <option>Otro</option>
+                </select>
+              </label>
+              <label>
+                Tipo de agua
+                <select name="agua" required>
+                  <option>Aguas grises</option>
+                  <option>Aguas residuales domesticas</option>
+                  <option>Mixtas</option>
+                  <option>No estoy seguro</option>
+                </select>
+              </label>
+              <label>
+                Numero estimado de usuarios
+                <input type="text" name="usuarios" placeholder="Ejemplo: 4 personas o 30 usuarios por dia" />
+              </label>
+              <label>
+                Contexto del caso
+                <textarea name="mensaje" rows="5" placeholder="Describe el problema, la escala, el terreno y el objetivo del proyecto" required></textarea>
+              </label>
+              <button type="submit" class="button button-primary">Enviar solicitud</button>
+              <p class="microcopy">Comparte tipo de agua, ubicacion, uso del predio y restricciones del sitio para orientar mejor el diagnostico.</p>
+            </form>
+          </article>
+
+          <aside class="contact-sidebar">
+            <div class="info-card">
+              <h3>Canales directos</h3>
+              <p>Instagram: @biofiltro.tierrayagua</p>
+              <p>Correo sugerido: hola@tierrayagua.bio</p>
+              <p>Ubicacion operativa: Colombia</p>
+            </div>
+            <div class="info-card">
+              <h3>Que ayuda a responder mejor</h3>
+              <p>Tipo de agua, numero de usuarios, suelo, pendiente, uso del espacio, objetivo esperado y si existe camara septica actual.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <div data-site-footer></div>
+  </body>
+</html>

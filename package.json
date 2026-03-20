@@ -1,0 +1,10 @@
+{
+  "name": "tierra-y-agua-sitio-web",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "powershell -ExecutionPolicy Bypass -File ./start-localhost.ps1",
+    "start": "powershell -ExecutionPolicy Bypass -File ./start-localhost.ps1",
+    "serve": "powershell -ExecutionPolicy Bypass -File ./start-localhost.ps1"
+  }
+}

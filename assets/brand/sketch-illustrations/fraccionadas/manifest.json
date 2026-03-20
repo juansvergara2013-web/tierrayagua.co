@@ -1,0 +1,83 @@
+﻿[
+    {
+        "file":  "01-humedal-superficial.png",
+        "name":  "Humedal superficial",
+        "x":  20,
+        "y":  50,
+        "width":  540,
+        "height":  280,
+        "source":  "imagenes--dividir.png"
+    },
+    {
+        "file":  "02-laboratorio-y-registro.png",
+        "name":  "Laboratorio y registro",
+        "x":  555,
+        "y":  10,
+        "width":  450,
+        "height":  320,
+        "source":  "imagenes--dividir.png"
+    },
+    {
+        "file":  "03-construccion-rural.png",
+        "name":  "Construccion rural",
+        "x":  1020,
+        "y":  20,
+        "width":  470,
+        "height":  290,
+        "source":  "imagenes--dividir.png"
+    },
+    {
+        "file":  "04-humedal-en-paisaje.png",
+        "name":  "Humedal en paisaje",
+        "x":  20,
+        "y":  280,
+        "width":  540,
+        "height":  300,
+        "source":  "imagenes--dividir.png"
+    },
+    {
+        "file":  "05-diagrama-biofiltro.png",
+        "name":  "Diagrama biofiltro",
+        "x":  515,
+        "y":  240,
+        "width":  545,
+        "height":  330,
+        "source":  "imagenes--dividir.png"
+    },
+    {
+        "file":  "06-impacto-en-rio.png",
+        "name":  "Impacto en rio",
+        "x":  1060,
+        "y":  270,
+        "width":  430,
+        "height":  310,
+        "source":  "imagenes--dividir.png"
+    },
+    {
+        "file":  "07-descarga-en-humedal.png",
+        "name":  "Descarga en humedal",
+        "x":  15,
+        "y":  575,
+        "width":  540,
+        "height":  280,
+        "source":  "imagenes--dividir.png"
+    },
+    {
+        "file":  "08-sistema-en-vivienda.png",
+        "name":  "Sistema en vivienda",
+        "x":  480,
+        "y":  545,
+        "width":  580,
+        "height":  305,
+        "source":  "imagenes--dividir.png"
+    },
+    {
+        "file":  "09-proteccion-planetaria.png",
+        "name":  "Proteccion planetaria",
+        "x":  1045,
+        "y":  555,
+        "width":  445,
+        "height":  300,
+        "source":  "imagenes--dividir.png"
+    }
+]
